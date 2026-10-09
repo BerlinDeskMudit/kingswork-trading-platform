@@ -5,7 +5,7 @@ your machine** — live market views, technical and ML signals, paper portfolios
 risk management, backtesting, prediction markets, social trading, and AI-assisted
 research in one authenticated web app (colloquially *KingsWork*).
 
-[![CI](https://github.com/0xMudit/kingswork-trading-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/0xMudit/kingswork-trading-intelligence/actions/workflows/ci.yml)
+[![CI](https://github.com/0xMudit/kingswork-trading-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/0xMudit/kingswork-trading-platform/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)](./backend)
 [![React 18](https://img.shields.io/badge/React-18-61dafb)](./frontend)
@@ -183,8 +183,8 @@ extension guidance.
 ### 1. Start the API
 
 ```bash
-git clone https://github.com/0xMudit/kingswork-trading-intelligence.git
-cd kingswork-trading-intelligence/backend
+git clone https://github.com/0xMudit/kingswork-trading-platform.git
+cd kingswork-trading-platform/backend
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -200,7 +200,7 @@ http://localhost:8000/docs.
 In a second terminal:
 
 ```bash
-cd kingswork-trading-intelligence/frontend
+cd kingswork-trading-platform/frontend
 npm install
 npm run dev
 ```
